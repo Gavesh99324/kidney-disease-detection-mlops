@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/Gavesh99324/kidney-disease-detection-mlops
+Author: Gavesh99324
+Author-email: gaveshtishanj@gmail.com
+Project-URL: Bug Tracker, https://github.com/Gavesh99324/kidney-disease-detection-mlops/issues
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+# kidney-disease-detection-mlops
+Kidney Disease Detection using CNN, MLflow, DVC, Docker, and AWS deployment.
