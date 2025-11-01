@@ -20,3 +20,13 @@
 [2025-10-27 01:43:44,636: INFO: common: created directory at: artifacts/data_ingestion]
 [2025-10-27 01:43:44,639: INFO: 1199208304: Downloading data from https://drive.google.com/file/d/172xRLsitipzymBi9EslZ2u2VZN3OJwIz/view?usp=sharing into file artifacts/data_ingestion/data.zip]
 [2025-10-27 01:49:14,577: INFO: 1199208304: Downloaded data from https://drive.google.com/file/d/172xRLsitipzymBi9EslZ2u2VZN3OJwIz/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2025-11-01 20:40:12,380: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-01 20:40:12,382: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\config\config.yaml loaded successfully]
+[2025-11-01 20:40:12,385: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\params.yaml loaded successfully]
+[2025-11-01 20:40:12,386: INFO: common: created directory at: artifacts]
+[2025-11-01 20:40:12,386: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-01 20:40:12,386: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/172xRLsitipzymBi9EslZ2u2VZN3OJwIz/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-01 20:56:10,747: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/172xRLsitipzymBi9EslZ2u2VZN3OJwIz/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2025-11-01 20:56:20,850: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========]
