@@ -179,3 +179,12 @@ x==========x]
 [2025-11-04 00:54:06,265: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2025-11-04 23:48:27,706: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\config\config.yaml loaded successfully]
+[2025-11-04 23:48:27,750: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\params.yaml loaded successfully]
+[2025-11-04 23:48:27,759: INFO: common: created directory at: artifacts]
+[2025-11-04 23:49:33,536: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\config\config.yaml loaded successfully]
+[2025-11-04 23:49:33,558: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\params.yaml loaded successfully]
+[2025-11-04 23:49:33,597: INFO: common: created directory at: artifacts]
+[2025-11-04 23:58:21,109: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\config\config.yaml loaded successfully]
+[2025-11-04 23:58:21,525: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\params.yaml loaded successfully]
+[2025-11-04 23:58:21,609: INFO: common: created directory at: artifacts]
