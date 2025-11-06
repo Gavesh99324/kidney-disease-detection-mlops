@@ -344,3 +344,62 @@ x==========x]
 [2025-11-06 05:48:44,337: INFO: common: json file saved at: scores.json]
 [2025-11-06 05:48:48,597: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
 [2025-11-06 05:48:50,501: INFO: builder_impl: Assets written to: C:\Users\USER\AppData\Local\Temp\tmplzlj3b_n\model\data\model\assets]
+[2025-11-06 19:46:50,992: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-11-06 19:46:50,996: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\config\config.yaml loaded successfully]
+[2025-11-06 19:46:50,999: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\params.yaml loaded successfully]
+[2025-11-06 19:46:51,001: INFO: common: created directory at: artifacts]
+[2025-11-06 19:46:51,001: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-06 19:46:51,001: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/172xRLsitipzymBi9EslZ2u2VZN3OJwIz/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-06 20:01:51,093: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/172xRLsitipzymBi9EslZ2u2VZN3OJwIz/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2025-11-06 20:02:04,982: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========]
+[2025-11-06 23:22:18,166: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-11-06 23:22:18,168: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\config\config.yaml loaded successfully]
+[2025-11-06 23:22:18,170: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\params.yaml loaded successfully]
+[2025-11-06 23:22:18,170: INFO: common: created directory at: artifacts]
+[2025-11-06 23:22:18,171: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-06 23:22:18,171: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/172xRLsitipzymBi9EslZ2u2VZN3OJwIz/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-06 23:26:40,081: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/172xRLsitipzymBi9EslZ2u2VZN3OJwIz/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2025-11-06 23:26:48,051: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========]
+[2025-11-06 23:27:46,868: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-11-06 23:27:46,870: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\config\config.yaml loaded successfully]
+[2025-11-06 23:27:46,871: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\params.yaml loaded successfully]
+[2025-11-06 23:27:46,872: INFO: common: created directory at: artifacts]
+[2025-11-06 23:27:46,872: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-06 23:27:46,872: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/172xRLsitipzymBi9EslZ2u2VZN3OJwIz/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-06 23:32:42,417: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/172xRLsitipzymBi9EslZ2u2VZN3OJwIz/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2025-11-06 23:32:50,646: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========]
+[2025-11-06 23:36:08,380: INFO: stage_02_prepare_base_model: *******************]
+[2025-11-06 23:36:08,380: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare_Base_Model started <<<<<<]
+[2025-11-06 23:36:08,382: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\config\config.yaml loaded successfully]
+[2025-11-06 23:36:08,384: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\params.yaml loaded successfully]
+[2025-11-06 23:36:08,385: INFO: common: created directory at: artifacts]
+[2025-11-06 23:36:08,385: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-11-06 23:36:08,873: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-11-06 23:36:09,122: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare_Base_Model completed <<<<<<
+
+x==========x]
+[2025-11-06 23:39:06,468: INFO: stage_03_model_training: ******************]
+[2025-11-06 23:39:06,468: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2025-11-06 23:39:06,470: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\config\config.yaml loaded successfully]
+[2025-11-06 23:39:06,472: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\params.yaml loaded successfully]
+[2025-11-06 23:39:06,473: INFO: common: created directory at: artifacts]
+[2025-11-06 23:39:06,473: INFO: common: created directory at: artifacts\training]
+[2025-11-06 23:48:08,432: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-11-06 23:50:46,849: INFO: stage_04_model_evaluation: *******************]
+[2025-11-06 23:50:46,850: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-11-06 23:50:46,851: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\config\config.yaml loaded successfully]
+[2025-11-06 23:50:46,853: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\params.yaml loaded successfully]
+[2025-11-06 23:50:46,854: INFO: common: created directory at: artifacts]
+[2025-11-06 23:53:38,188: INFO: common: json file saved at: scores.json]
+[2025-11-06 23:53:38,189: INFO: common: json file saved at: scores.json]
+[2025-11-06 23:53:38,190: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
