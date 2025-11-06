@@ -403,3 +403,114 @@ x==========x]
 [2025-11-06 23:53:38,190: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2025-11-07 03:54:18,240: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.8.141:8080]
+[2025-11-07 03:54:18,241: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-07 03:54:49,193: INFO: _internal: 127.0.0.1 - - [07/Nov/2025 03:54:49] "GET / HTTP/1.1" 200 -]
+[2025-11-07 03:58:22,304: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 121, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "G:\Python Codes\kidney-disease-detection-mlops\app.py", line 40, in predictRoute
+    return jsonfiy(result)
+NameError: name 'jsonfiy' is not defined
+[2025-11-07 03:58:22,323: INFO: _internal: 127.0.0.1 - - [07/Nov/2025 03:58:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-11-07 03:59:06,622: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-07 03:59:06,638: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\config\config.yaml loaded successfully]
+[2025-11-07 03:59:06,651: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\params.yaml loaded successfully]
+[2025-11-07 03:59:06,653: INFO: common: created directory at: artifacts]
+[2025-11-07 03:59:06,653: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-07 03:59:06,654: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/172xRLsitipzymBi9EslZ2u2VZN3OJwIz/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-07 03:59:45,556: INFO: _internal: 127.0.0.1 - - [07/Nov/2025 03:59:45] "GET / HTTP/1.1" 200 -]
+[2025-11-07 04:00:05,678: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-07 04:00:05,686: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\config\config.yaml loaded successfully]
+[2025-11-07 04:00:05,691: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\params.yaml loaded successfully]
+[2025-11-07 04:00:05,693: INFO: common: created directory at: artifacts]
+[2025-11-07 04:00:05,693: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-07 04:00:05,694: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/172xRLsitipzymBi9EslZ2u2VZN3OJwIz/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-07 04:00:18,218: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 121, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "G:\Python Codes\kidney-disease-detection-mlops\app.py", line 40, in predictRoute
+    return jsonfiy(result)
+NameError: name 'jsonfiy' is not defined
+[2025-11-07 04:00:18,227: INFO: _internal: 127.0.0.1 - - [07/Nov/2025 04:00:18] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-11-07 04:05:45,227: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/172xRLsitipzymBi9EslZ2u2VZN3OJwIz/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2025-11-07 04:05:50,299: ERROR: main: ]
+Traceback (most recent call last):
+  File "G:\Python Codes\kidney-disease-detection-mlops\main.py", line 11, in <module>
+    obj.main()
+  File "G:\Python Codes\kidney-disease-detection-mlops\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.extract_zip_file()
+  File "G:\Python Codes\kidney-disease-detection-mlops\src\cnnClassifier\components\data_ingestion.py", line 43, in extract_zip_file
+    zip_ref.extractall(unzip_path)
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\zipfile.py", line 1667, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\zipfile.py", line 1722, in _extract_member
+    shutil.copyfileobj(source, target)
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\shutil.py", line 205, in copyfileobj
+    buf = fsrc_read(length)
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\zipfile.py", line 942, in read
+    data = self._read1(n)
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\zipfile.py", line 1010, in _read1
+    data += self._read2(n - len(data))
+  File "C:\Users\USER\anaconda3\envs\kidney\lib\zipfile.py", line 1045, in _read2
+    raise EOFError
+EOFError
+[2025-11-07 04:05:52,319: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/172xRLsitipzymBi9EslZ2u2VZN3OJwIz/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2025-11-07 04:05:53,178: INFO: _internal: 127.0.0.1 - - [07/Nov/2025 04:05:53] "GET /train HTTP/1.1" 200 -]
+[2025-11-07 04:06:08,302: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========]
+[2025-11-07 04:06:08,304: INFO: main: ********************]
+[2025-11-07 04:06:08,305: INFO: main: >>>>>> stage Prepare base Model started <<<<<<]
+[2025-11-07 04:06:08,312: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\config\config.yaml loaded successfully]
+[2025-11-07 04:06:08,318: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\params.yaml loaded successfully]
+[2025-11-07 04:06:08,322: INFO: common: created directory at: artifacts]
+[2025-11-07 04:06:08,322: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-11-07 04:06:09,196: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-11-07 04:06:10,448: INFO: main: >>>>>> stage Prepare base Model completed <<<<<<
+
+x==========x]
+[2025-11-07 04:06:10,448: INFO: main: ********************]
+[2025-11-07 04:06:10,448: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-11-07 04:06:10,451: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\config\config.yaml loaded successfully]
+[2025-11-07 04:06:10,452: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\params.yaml loaded successfully]
+[2025-11-07 04:06:10,452: INFO: common: created directory at: artifacts]
+[2025-11-07 04:06:10,453: INFO: common: created directory at: artifacts\training]
+[2025-11-07 04:17:54,547: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-11-07 04:17:54,549: INFO: main: *******************]
+[2025-11-07 04:17:54,549: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-11-07 04:17:54,565: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\config\config.yaml loaded successfully]
+[2025-11-07 04:17:54,574: INFO: common: yaml file: G:\Python Codes\kidney-disease-detection-mlops\params.yaml loaded successfully]
+[2025-11-07 04:17:54,577: INFO: common: created directory at: artifacts]
+[2025-11-07 04:20:48,804: INFO: common: json file saved at: scores.json]
+[2025-11-07 04:20:48,806: INFO: common: json file saved at: scores.json]
+[2025-11-07 04:20:48,807: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
